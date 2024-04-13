@@ -2,15 +2,15 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import allActions from "../../Actions";
 
-const ComponentOne = props => {
-  const counter = useSelector(state => state.counter);
-  const text = useSelector(state => state.text.value);
+const ComponentOne = (props) => {
+  const counter = useSelector((state) => state.counter);
+  const text = useSelector((state) => state.text.value);
 
   const dispatch = useDispatch();
 
   return (
     <div className="ComponentOne">
-      <h5>1. Fuctional Component</h5>
+      <h5>1. Functional Component</h5>
 
       <p>Counter: {counter}</p>
       <p>Text: {text} </p>

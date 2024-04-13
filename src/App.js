@@ -4,10 +4,10 @@ import ComponentOne from "./Components/ComponentOne";
 import ComponentTwo from "./Components/ComponentTwo";
 import ComponentThree from "./Components/ComponentThree";
 
-const App = props => {
+const App = (props) => {
   return (
     <div className="App">
-      <h2>React redux sample app</h2>
+      <h2>React Redux Sample App</h2>
       <ComponentOne />
       <ComponentTwo />
       <ComponentThree />
