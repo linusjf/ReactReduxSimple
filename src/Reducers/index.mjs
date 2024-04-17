@@ -1,10 +1,10 @@
-import text from "./text";
-import counter from "./counter";
+import text from "./text.mjs";
+import counter from "./counter.mjs";
 import { combineReducers } from "redux";
 
 const rootReducer = combineReducers({
   counter,
-  text
+  text,
 });
 
 export default rootReducer;

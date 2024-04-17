@@ -1,11 +1,11 @@
-.App {
+.app {
   text-align: center;
   margin: auto;
 }
 
-.ComponentOne,
-.ComponentTwo,
-.ComponentThree {
+.component-one,
+.component-two,
+.component-three {
   width: 400px;
   float: left;
   margin-left: 5%;
@@ -16,7 +16,7 @@
   min-height: 15vw;
 }
 
-.inputBox {
+.input-box {
   height: 30px;
   padding: 2px 10px;
   font-size: 14px;

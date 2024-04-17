@@ -9,7 +9,7 @@ const ComponentOne = (props) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="ComponentOne">
+    <div className="component-one">
       <h5>1. Functional Component</h5>
 
       <p>Counter: {counter}</p>

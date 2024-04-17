@@ -6,7 +6,7 @@ import ComponentThree from "./Components/ComponentThree";
 
 const App = (props) => {
   return (
-    <div className="App">
+    <div className="app">
       <h2>React Redux Sample App</h2>
       <ComponentOne />
       <ComponentTwo />

@@ -6,7 +6,7 @@ class ComponentThree extends React.Component {
     let counter = this.props.counter;
     let text = this.props.text.value;
     return (
-      <div className="ComponentThree">
+      <div className="component-three">
         <h5>3. Class Component</h5>
         <p>Counter: {counter}</p>
         <p>Text: {text} </p>

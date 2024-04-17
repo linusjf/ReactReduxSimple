@@ -19,17 +19,17 @@ const ComponentTwo = props => {
   };
 
   return (
-    <div className="ComponentTwo">
+    <div className="component-two">
       <h5>2. Function Component</h5>
       <p> Counter: {counter}</p>
 
-      <label htmlFor="useState"> Text :</label>
+      <label htmlFor="use-state"> Text :</label>
       <input
-        id="useState"
+        id="use-state"
         onChange={event => setValueChange(event.target.value)}
         type="text"
         value={valueChange}
-        className="inputBox"
+        className="input-box"
       />
       <br />
       <button
